@@ -29,6 +29,6 @@ if __name__ == "__main__":
             usage(NAME)
             sys.exit(2)
         addr, port = m.groups()
-    print 'Running server on %s, on port %s' % (addr or 'localhost', port)
+    print 'Running server on %s, on port %s' % (addr or '127.0.0.1', port)
     run(addr, int(port))
 
