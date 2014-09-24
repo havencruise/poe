@@ -1,0 +1,6 @@
+while true 
+do
+        clear;
+        ps -e -o ppid,pid,pcpu,pmem,args --sort +pcpu --forest
+        sleep 1s;
+done
