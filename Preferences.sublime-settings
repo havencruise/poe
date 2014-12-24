@@ -1,17 +1,22 @@
 {
-    // Custom settings
-    "gutter": true,
-    "margin": 4,
-    "rulers": [0, 85],
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
+    "auto_complete": false,
+    //"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
     "color_scheme": "Packages/Color Scheme - Custom/Grey.tmTheme",
     "disable_formatted_linebreak": true,
     "font_size": 12.0,
+    "gutter": true,
     "ignored_packages":
     [
         "Vintage"
     ],
+    "margin": 4,
+    "rulers":
+    [
+        0,
+        85
+    ],
     "soda_classic_tabs": true,
-    "tab_size": 4
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": true
 }
