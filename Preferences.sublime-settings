@@ -1,6 +1,9 @@
 {
     "auto_complete": false,
-    //"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
+    "auto_complete_triggers":
+    [
+    ],
+    "auto_match_enabled": false,
     "color_scheme": "Packages/Color Scheme - Custom/Grey.tmTheme",
     "disable_formatted_linebreak": true,
     "font_size": 12.0,
@@ -13,10 +16,13 @@
     "rulers":
     [
         0,
-        85
+        100
     ],
+    "shift_tab_unindent": true,
     "soda_classic_tabs": true,
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
-    "word_wrap": true
+    "word_wrap": true,
+    "anaconda_gutter_theme": "simple",
+    "anaconda_linter_mark_style": "none"
 }
