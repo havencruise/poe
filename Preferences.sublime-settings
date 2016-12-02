@@ -24,5 +24,14 @@
     "translate_tabs_to_spaces": true,
     "word_wrap": true,
     "anaconda_gutter_theme": "simple",
-    "anaconda_linter_mark_style": "none"
+    "anaconda_linter_mark_style": "none",
+    "follow_symlinks": false,
+    "folder_exclude_patterns": ["__pycache__", ".cache"],
+    "binary_file_patterns": [
+      "generated/*", "*.zip", "*.tbz2", "*.gzip", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf",
+      "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.xlsx", "*.swf", "*.jar", ],
+    "file_exclude_patterns": [
+      "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib",
+      "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store",
+      "*.class", "*.psd", "*.db", "*.sublime-workspace"]
 }
